@@ -1,5 +1,10 @@
-import '@/styles/globals.css'
-
-export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />
+import Header from '../components/header'
+import MovieList from '../components/movieList'
+export default function App() {
+  return (
+    <>
+    <Header />
+    <MovieList />
+    </>
+  )
 }
